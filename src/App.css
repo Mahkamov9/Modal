@@ -1,1 +1,21 @@
+.App{
+    display: flex;
+    justify-content: center;
+}
 
+.btnBox{
+    margin-top: 180px;
+    display: flex;
+    flex-direction: column;
+}
+
+.appBtn{
+    width: 200px;
+    height: 40px;
+    margin: 10px;
+    background-color: rgba(175, 167, 202, 0.5);
+    border: none;
+    font-size: 22px;
+    color: white;  
+    border-radius: 8px;
+}
