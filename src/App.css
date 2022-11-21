@@ -1,6 +1,7 @@
 .App{
     display: flex;
     justify-content: center;
+    position: relative;
 }
 
 .btnBox{
@@ -18,4 +19,11 @@
     font-size: 22px;
     color: white;  
     border-radius: 8px;
+}
+
+.watermake{
+    position: absolute;
+    /* top: 150%; */
+    /* left: 50%; */
+   transform: translate(-60% , 280%);
 }

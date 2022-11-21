@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import './App.css';
 import Modal from './components/modal/modal';
+import logo from './assets/img/mylogo.png';
 
 function App() {
 
@@ -29,6 +30,9 @@ const [second, setSecond] = useState(false)
           <button>Submit</button>
         </form>
       </Modal>
+      <div className='watermake'>
+          <img  src={logo} alt="" />
+      </div>
 
     </div>
   );
